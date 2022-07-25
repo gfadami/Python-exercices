@@ -14,7 +14,7 @@ while n3 != 5:
             if n2 > n1:
                 print(f'== O maior número é {n2}. ==')
             if n1 == n2:
-                print('== Os núemros são iguais. ==')
+                print('== Os números são iguais. ==')
         if n3 == 4:
             n1 = int(input('Digite o 1o número: '))
             n2 = int(input('Digite o 1o número: '))
