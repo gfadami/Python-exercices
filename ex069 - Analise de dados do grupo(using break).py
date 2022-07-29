@@ -2,7 +2,7 @@ print('== CADASTRE UMA PESSOA ==')
 soma = contid = contsex = femenor = 0
 while True:
     idade = input('Digite a idade: ')
-    while not idade.isdigit():              ## Quando a idade for um input, ele vai armazenar na linha 7 como input. Se for um str ele pergunta de novo.
+    while not idade.isdigit():              ## O isdigit vai verificar se a idade é um digito, depois converte pra int na linha 7. Se for um str ele pergunta de novo.
         idade = input('Digite a idade: ')
     idade = int(idade)
     sexo = str(input('Digite o sexo: ')).strip().upper()
