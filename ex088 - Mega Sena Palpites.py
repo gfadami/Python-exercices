@@ -5,6 +5,7 @@ palpites = int(input('Quantos jogos você quer?: '))
 jogo = list()
 for p in range(1, palpites+1):
     numeros = random.sample(range(1,60),6)
+    numeros.sort()
     jogo.append(numeros)
     sleep(1)
     print(f'Jogo {p}: {jogo[0]}.')
