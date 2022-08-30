@@ -18,6 +18,7 @@ def leiaReal(msg):
             n = float(input(msg))
         except (ValueError, TypeError):
             print('ERRO. Digite um número real válido.')
+            continue
         except KeyboardInterrupt:
             print('O usuário não digitou os dados.')
             return 0
